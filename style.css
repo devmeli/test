@@ -1,0 +1,475 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    color:#00252E;
+    width:auto;
+    margin: auto;
+}
+
+
+.header{
+    position: absolute;
+    top:40px;
+    left:auto;
+    right:auto;
+    margin: auto;
+    width:1300px;
+    height:70px;
+}
+
+
+
+/*(Try It Free) is a Button*/
+
+.logo{
+    position:absolute;
+    left:50px;
+}
+
+#try-it{
+    border: 1px solid #FF52C1;
+    background-color: #fff;
+    height: 40px;
+    width:136px;
+    border-radius: 55px;
+    color:#FF52C1;
+    position: absolute;
+    left:1142px;
+    
+}
+
+#try-it:hover{
+    border: 1px solid #FF8ED7;
+    color:#FF8ED7;
+    cursor: pointer;
+}
+
+.hero{
+    width: 1017px;
+    height: 1157px;
+    position: absolute;
+    top:230px;
+    left:180px;
+
+}
+
+
+
+.para{
+    text-align: center;
+    position:relative;
+    top:50px;
+    margin:auto;
+    height:180px;
+    width:500px;
+    line-height: 25px;
+}
+
+.subject{
+    text-align: center;
+}
+
+#get-started{
+    width:400px;
+    height:80px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: hidden;
+    position:absolute;
+    left:310px;
+    background-color: #FF52C1;
+    color: #fff;
+}
+
+#get-started:hover{
+    background-color: #FF8ED7;
+    cursor: pointer;
+    
+}
+
+.image1{
+    width:1016px;
+    height:720px;
+    margin:auto;
+    position:relative;
+    top:130px;
+   
+}
+
+/*com & messages styles*/
+
+.com-messages{
+    margin: auto;
+    height:222px;
+    width: 800px;
+    position:relative;
+    top:180px;
+    color: #00252E;
+    display: flex;
+}
+
+/*   1.4k+ Com Formed  */  
+
+.commu{
+    position: relative;
+    top: 30px;
+    bottom: 24px;
+    width: 200px;
+    height: 150px;
+}
+
+
+#commu{
+    position:absolute;
+}
+
+.k{
+    position: absolute;
+    top:25px;
+    font-size: 35px;
+}
+
+.kmu{
+    position: absolute;
+    top:118px;
+    left:25px;
+}
+
+/*   1.4k+ Com Formed   */ 
+
+/*   2.7m+ messages  */  
+
+.mess{
+    position: absolute;
+    top: 30px;
+    left:594px;
+    bottom: 24px;
+    width: 200px;
+    height: 150px;
+    
+}
+
+.m{
+    position: absolute;
+    top:25px;
+    font-size: 35px;
+}
+
+.icon-mess{
+    position: absolute;
+    left:5px;
+   
+}
+
+.sent{
+    position: absolute;
+    top:118px;
+    left:38px;
+}
+
+/*   2.7m+ messages  */  
+
+/*   grow styles   */ 
+
+
+#grow-main{
+    height:980px;
+    width:1349px;
+    position: absolute;
+    left:0px;
+    top:1550px;
+    background-image: url("images/Grow\ Path\ 6.svg");
+    background-repeat: no-repeat;
+}
+
+
+.grow-background{
+    position: absolute;
+    top:1700px;
+}
+
+#grow-image{
+    width:517.22px;
+    height:423.11px;
+}
+.grow-image{
+    position:absolute;
+    top:90px;
+    left:650px;
+}
+
+
+.grow-text{
+    height:110px;
+    width:420px;
+    position: absolute;
+    top:190px;
+    left:100px;
+}
+
+
+.bold-para{
+    position: absolute;
+    top:70px;
+}
+
+
+
+
+
+/*   grow styles    */
+
+/*flow styles*/
+
+#flow-image{
+    width:531px;
+    height:378px;
+
+}
+
+.flow-main{
+    position: absolute;
+    top:2500px;
+    left:150px;
+}
+
+.flow-text{
+    height:110px;
+    width:420px;
+    position:absolute;
+    top:120px;
+    left:650px;
+}
+
+.flow-bold{
+    position:absolute;
+}
+
+.flow-para{
+    position: absolute;
+    top:70px;
+}
+
+/*flow styles*/
+
+/*User styles*/
+#user-image{
+    height:404px;
+    width:534px;
+}
+
+.user-main{
+    height:980px;
+    width:1349px;
+    background-image: url("images/Grow\ Path\ 6.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top:3000px;
+    left:0px;
+}
+
+.user-image{
+    position: absolute;
+    left:650px;
+    top:250px;
+}
+
+.user-text{
+    height:110px;
+    width:420px;
+    position:absolute;
+    top:380px;
+    left:100px;
+}
+
+.user-para{
+    position: absolute;
+    top:70px;
+}
+
+/*bottom-quest*/
+
+#bottom-container{
+    height:80px;
+    width:550px;
+    position: absolute;
+    top:3950px;
+    left:450px;
+}
+
+
+
+.get{
+    position: absolute;
+    top:110px;
+    left:45px;
+}
+
+#getting-start{
+    width:400px;
+    height:80px;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 0px hidden;
+    background-color: #FF52C1;
+    color: #fff;
+}
+
+#getting-start:hover{
+    border: 1px hidden #FF8ED7;
+    background-color: #FF8ED7;
+    cursor: pointer;
+
+}
+
+/*bottom-quest*/
+
+
+/*footer*/
+
+#footer-main{
+    height:720px;
+    width:1349px;
+    background-image: url("images/Footer\ background.svg");
+    background-repeat: no-repeat;
+    background-size: 1368px 720px;
+    position: absolute;
+    top:4300px;
+    left:0px;
+    color:#fff;
+}
+
+.footer-text{
+    height:110px;
+    width:320px;
+    position: absolute;
+    top:200px;
+    left:118px;
+}
+
+/*huddle white logo*/
+.logo-white{
+    filter: brightness(0) invert(1);
+}
+/*huddle white logo*/
+.footer-para{
+    position: absolute;
+    top:70px;
+}
+
+#phone{
+    position: absolute;
+    left:50px;
+}
+
+
+#phone-main{
+    width: 250px;
+    height:20px;
+    position: absolute;
+    top:230px;
+}
+
+#mail-main{
+    width: 250px;
+    height:20px;
+    position: absolute;
+    top:270px;
+}
+
+#mail{
+    position: absolute;
+    left:50px;
+}
+
+/*social media icons*/
+
+.icon-main{
+    width:160px;
+    height:35px;
+    position: absolute;
+    top:4850px;
+    left:120px;
+}
+
+.facebook{
+    position:absolute;
+}
+
+.facebook:hover{
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(150deg) brightness(119%) contrast(119%);
+    cursor: pointer;
+}
+.instagram{
+    position: absolute;
+    left: 50px;
+}
+
+.instagram:hover{
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(150deg) brightness(119%) contrast(119%);
+    cursor: pointer;
+}
+
+
+.twitter{
+    position: absolute;
+    left:100px;
+}
+
+.twitter:hover{
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(150deg) brightness(119%) contrast(119%);
+    cursor: pointer;
+}
+
+.footer-right{
+    height:110px;
+    width:320px;
+    color:white;
+    position: absolute;
+    top:4502px;
+    left:800px;
+}
+
+.right-para{
+    position:absolute;
+    top:72px;
+}
+.input-sub{
+    position: absolute;
+    top:20px;
+}
+
+#submit{
+    border: 1px hidden #FF52C1;
+    color:white;
+    background-color: #FF52C1;
+    position:absolute;
+    left:350px;
+    top:200px;
+    width:160px;
+    height:48px;
+    border-radius: 7px;
+}
+
+#submit:hover{
+    border: 1px hidden #FF8ED7;
+    background-color: #FF8ED7;
+    cursor: pointer;
+}
+
+#input{
+    width:320px;
+    height:48px;
+    border: 1px hidden #FF52C1;
+    border-radius: 7px;
+    position: absolute;
+    top:200px;
+    color:#9c9b9c;
+    padding: 12px 20px;
+
+}
